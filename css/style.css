@@ -1,0 +1,119 @@
+
+.top_bar
+{
+	background:#3D6AA2; padding:5px 0;
+	
+}
+.social_icons
+{
+	margin-right:5px;
+}
+.contact_info
+{
+	color:#fff;
+}
+.my_menu
+{
+	margin-top:27px;
+}
+.my_menu .navbar-default
+{
+	background:none;
+	border:none;
+}
+.my_menu .navbar-nav .active a, .my_menu .navbar-nav .active a:hover
+{
+	background:#3D6AA2;
+	color:#fff;
+}
+.my_menu .navbar-nav li a:hover
+{
+	background:#3D6AA2;
+	color:#fff;
+}
+.our_courses
+{
+	background: radial-gradient(circle, #3D6AA2, #3D6AA2); padding:25px 0;
+}
+.our_courses h3
+{
+	color:#fff;
+}
+@media (max-width:1200px)
+	{
+		.my_menu .pull-right{float:none !important;}
+	}
+	
+.contact
+{
+	background:#3D6AA2;
+	color:#fff;
+}
+
+ /*************************
+*******Event CSS******
+**************************/
+#event {
+  
+ 
+  background-position: 50% 0;
+  background-size: contain;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+.guitar {
+  position: absolute;
+  right:0;
+  top: 0
+}
+
+
+#event h2 {
+  color:#666999;
+  font-size: 36px;
+  font-weight: 300;
+  margin-bottom: 40px;
+  margin-top: 70px;
+  text-transform: uppercase;
+}
+
+.single-event {
+  margin-bottom: 70px;
+}
+
+.single-event h4 {
+  color: #FFFFFF;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 26px;
+  margin-top: 25px;
+  text-transform: uppercase;
+}
+
+
+.single-event h5 {
+  font-size: 18px;
+  font-weight: 100;
+  display: block;
+}
+
+#event-carousel {
+  position: relative;
+}
+
+.even-control-left, 
+.even-control-right {
+  position: absolute;
+  font-size: 48px;
+  color: #fed136;
+  top: 0;
+}
+
+.even-control-left {
+  right: 3%
+} 
+
+.even-control-right {
+  right: 0;
+}
